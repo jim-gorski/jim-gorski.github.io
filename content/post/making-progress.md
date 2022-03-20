@@ -13,3 +13,5 @@ I've got a lot more to do:
 - Learn all about markup
 - Build a script workflow for image posting
 - Build/find a mobile solution
+
+On the plus side - I learned a lot about vscode today.
