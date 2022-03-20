@@ -4,6 +4,7 @@ date: 2022-03-20T14:25:25-04:00
 categories:
 tags:
 - WTF
+- website
 keywords:
 #thumbnailImage: //example.com/image.jpg
 ---
