@@ -8,4 +8,4 @@ I need a way to upload pictures and text from my mobile and have it show up on m
 That's not too much to ask I hope.
 So I push a few pictures and some loosely posted text - and then it goes up.
 ![So Handsome](/images/boycat.jpg)
-![Nostromo](alien-1979-6.jpg)
+![Nostromo](/images/alien-1979-6.jpg)
