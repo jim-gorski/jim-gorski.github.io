@@ -6,24 +6,15 @@
     <description>Recent content in Tags on jimgorski.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 24 Mar 2022 19:39:28 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 30 Mar 2022 19:50:20 +0000</lastBuildDate>
     
 	<atom:link href="https://www.jimgorski.com/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Email</title>
-      <link>https://www.jimgorski.com/tags/email/</link>
-      <pubDate>Thu, 24 Mar 2022 19:39:28 -0400</pubDate>
-      
-      <guid>https://www.jimgorski.com/tags/email/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>website</title>
       <link>https://www.jimgorski.com/tags/website/</link>
-      <pubDate>Wed, 23 Mar 2022 13:07:37 -0400</pubDate>
+      <pubDate>Wed, 30 Mar 2022 19:50:20 +0000</pubDate>
       
       <guid>https://www.jimgorski.com/tags/website/</guid>
       <description></description>
@@ -32,9 +23,18 @@
     <item>
       <title>WTF</title>
       <link>https://www.jimgorski.com/tags/wtf/</link>
-      <pubDate>Wed, 23 Mar 2022 13:07:37 -0400</pubDate>
+      <pubDate>Tue, 29 Mar 2022 14:55:05 -0400</pubDate>
       
       <guid>https://www.jimgorski.com/tags/wtf/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Email</title>
+      <link>https://www.jimgorski.com/tags/email/</link>
+      <pubDate>Thu, 24 Mar 2022 19:39:28 -0400</pubDate>
+      
+      <guid>https://www.jimgorski.com/tags/email/</guid>
       <description></description>
     </item>
     

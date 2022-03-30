@@ -6,10 +6,19 @@
     <description>Recent content in WTF on jimgorski.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 23 Mar 2022 13:07:37 -0400</lastBuildDate>
+    <lastBuildDate>Tue, 29 Mar 2022 14:55:05 -0400</lastBuildDate>
     
 	<atom:link href="https://www.jimgorski.com/tags/wtf/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Trying Workflows Again</title>
+      <link>https://www.jimgorski.com/post/trying-workflows-again/</link>
+      <pubDate>Tue, 29 Mar 2022 14:55:05 -0400</pubDate>
+      
+      <guid>https://www.jimgorski.com/post/trying-workflows-again/</guid>
+      <description>&lt;p&gt;So some kind soul on Reddit suggested the .nojekyll empty file in the root directory&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Still Hate Workflows</title>

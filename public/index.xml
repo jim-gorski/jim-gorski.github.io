@@ -6,10 +6,37 @@
     <description>Recent content on jimgorski.com</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 24 Mar 2022 19:39:28 -0400</lastBuildDate>
+    <lastBuildDate>Wed, 30 Mar 2022 19:50:20 +0000</lastBuildDate>
     
 	<atom:link href="https://www.jimgorski.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>So this post was dumped up on Dropbox</title>
+      <link>https://www.jimgorski.com/post/so-this-post-was-dumped-up-on-dropbox/</link>
+      <pubDate>Wed, 30 Mar 2022 19:50:20 +0000</pubDate>
+      
+      <guid>https://www.jimgorski.com/post/so-this-post-was-dumped-up-on-dropbox/</guid>
+      <description>I need a way to upload pictures and text from my mobile and have it show up on my website. That&amp;rsquo;s not too much to ask I hope. So I push a few pictures and some loosely posted text - and then it goes up. </description>
+    </item>
+    
+    <item>
+      <title>Testing my janky web workflow for mobile</title>
+      <link>https://www.jimgorski.com/post/testing-my-janky-web-workflow-for-mobile/</link>
+      <pubDate>Wed, 30 Mar 2022 19:48:03 +0000</pubDate>
+      
+      <guid>https://www.jimgorski.com/post/testing-my-janky-web-workflow-for-mobile/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Trying Workflows Again</title>
+      <link>https://www.jimgorski.com/post/trying-workflows-again/</link>
+      <pubDate>Tue, 29 Mar 2022 14:55:05 -0400</pubDate>
+      
+      <guid>https://www.jimgorski.com/post/trying-workflows-again/</guid>
+      <description>&lt;p&gt;So some kind soul on Reddit suggested the .nojekyll empty file in the root directory&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>The Person Who Solves Encrypted Email</title>
@@ -56,15 +83,6 @@ Hopefully this works&lt;/p&gt;</description>
       
       <guid>https://www.jimgorski.com/post/learning-hugo/</guid>
       <description>&lt;p&gt;A million year ago I used to blog all the time.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Testing my janky web workflow for mobile</title>
-      <link>https://www.jimgorski.com/post/testing-my-janky-web-workflow-for-mobile/</link>
-      <pubDate>Sun, 20 Mar 2022 19:30:32 +0000</pubDate>
-      
-      <guid>https://www.jimgorski.com/post/testing-my-janky-web-workflow-for-mobile/</guid>
-      <description>What good are shields if they don’t actually shield you from the attack by the Harkonens?</description>
     </item>
     
     <item>

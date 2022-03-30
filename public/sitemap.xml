@@ -3,22 +3,47 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://www.jimgorski.com/tags/email/</loc>
-    <lastmod>2022-03-24T19:39:28-04:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://www.jimgorski.com/</loc>
-    <lastmod>2022-03-24T19:39:28-04:00</lastmod>
+    <lastmod>2022-03-30T19:50:20+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.jimgorski.com/post/</loc>
-    <lastmod>2022-03-24T19:39:28-04:00</lastmod>
+    <lastmod>2022-03-30T19:50:20+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.jimgorski.com/post/so-this-post-was-dumped-up-on-dropbox/</loc>
+    <lastmod>2022-03-30T19:50:20+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://www.jimgorski.com/tags/</loc>
+    <lastmod>2022-03-30T19:50:20+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.jimgorski.com/tags/website/</loc>
+    <lastmod>2022-03-30T19:50:20+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.jimgorski.com/post/testing-my-janky-web-workflow-for-mobile/</loc>
+    <lastmod>2022-03-30T19:48:03+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.jimgorski.com/post/trying-workflows-again/</loc>
+    <lastmod>2022-03-29T14:55:05-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.jimgorski.com/tags/wtf/</loc>
+    <lastmod>2022-03-29T14:55:05-04:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://www.jimgorski.com/tags/email/</loc>
     <lastmod>2022-03-24T19:39:28-04:00</lastmod>
   </url>
   
@@ -29,16 +54,6 @@
   
   <url>
     <loc>https://www.jimgorski.com/post/still-hate-workflows/</loc>
-    <lastmod>2022-03-23T13:07:37-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.jimgorski.com/tags/website/</loc>
-    <lastmod>2022-03-23T13:07:37-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.jimgorski.com/tags/wtf/</loc>
     <lastmod>2022-03-23T13:07:37-04:00</lastmod>
   </url>
   
@@ -55,11 +70,6 @@
   <url>
     <loc>https://www.jimgorski.com/post/learning-hugo/</loc>
     <lastmod>2022-03-20T15:37:29-04:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://www.jimgorski.com/post/testing-my-janky-web-workflow-for-mobile/</loc>
-    <lastmod>2022-03-20T19:30:32+00:00</lastmod>
   </url>
   
   <url>
