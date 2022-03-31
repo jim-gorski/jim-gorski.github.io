@@ -10,3 +10,5 @@ That's not too much to ask I hope.
 So I push a few pictures and some loosely posted text - and then it goes up.
 ![So Handsome](/images/boycat.jpg)
 ![Nostromo](/images/alien-1979-6.jpg)
+
+What the french toast
