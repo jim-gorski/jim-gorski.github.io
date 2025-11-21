@@ -1,0 +1,36 @@
+name: Deploy Static Site
+
+on:
+  push:
+    branches:
+      - main # or your default branch
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # If you use a static site generator like Jekyll, Hugo, or Eleventy,
+      # insert build steps here. For a plain static site just skip this part.
+      #
+      # Example for Hugo:
+      # - name: Set up Go
+      #   uses: actions/setup-go@v5
+      #   with:
+      #     go-version: '1.22'
+      # - name: Install Hugo
+      #   run: curl -LO https://github.com/gohugoio/hugo/releases/download/v0.124.1/hugo_extended_0.124.1_Linux-64bit.tar.gz && tar xzf hugo_extended_0.124.1_Linux-64bit.tar.gz
+      # - name: Build site
+      #   run: hugo --minify
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
+          destination_branch: gh-pages
