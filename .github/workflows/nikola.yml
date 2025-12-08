@@ -1,4 +1,3 @@
-```
 name: Build & Deploy Nikola
 
 on:
@@ -18,7 +17,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.12'
+          python-version: "3.12"
 
       - name: Upgrade pip and install dependencies
         run: |
