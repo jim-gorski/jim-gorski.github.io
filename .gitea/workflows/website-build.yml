@@ -15,6 +15,8 @@ jobs:
     steps:
       - name: Check out source
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Verify Python
         run: |
@@ -38,3 +40,9 @@ jobs:
           cp CNAME output/CNAME
           touch output/.nojekyll
           test -s output/index.html
+
+      - name: Publish GitHub mirror and Pages
+        if: gitea.ref == 'refs/heads/main'
+        env:
+          GITHUB_PUBLISH_CREDENTIAL: ${{ secrets.GITHUB_PUBLISH_CREDENTIAL }}
+        run: ./scripts/publish-github.sh
