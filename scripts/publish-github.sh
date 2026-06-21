@@ -4,6 +4,7 @@ set -euo pipefail
 : "${GITHUB_PUBLISH_CREDENTIAL:?GITHUB_PUBLISH_CREDENTIAL is required}"
 
 github_repo="https://github.com/jim-gorski/jim-gorski.github.io.git"
+github_api="https://api.github.com/repos/jim-gorski/jim-gorski.github.io"
 source_sha="$(git rev-parse HEAD)"
 askpass_file="$(mktemp)"
 publish_dir="$(mktemp -d)"
@@ -28,6 +29,22 @@ export GIT_ASKPASS="$askpass_file"
 export GIT_TERMINAL_PROMPT=0
 
 git push "$github_repo" HEAD:refs/heads/main
+
+curl --fail-with-body --silent --show-error \
+  --user "x-access-token:${GITHUB_PUBLISH_CREDENTIAL}" \
+  --header "Accept: application/vnd.github+json" \
+  --header "X-GitHub-Api-Version: 2022-11-28" \
+  --request PUT \
+  --data '{"source":{"branch":"gh-pages","path":"/"}}' \
+  "${github_api}/pages"
+
+curl --fail-with-body --silent --show-error \
+  --user "x-access-token:${GITHUB_PUBLISH_CREDENTIAL}" \
+  --header "Accept: application/vnd.github+json" \
+  --header "X-GitHub-Api-Version: 2022-11-28" \
+  --request PUT \
+  --data '{"enabled":false}' \
+  "${github_api}/actions/permissions"
 
 rsync -a output/ "$publish_dir/"
 git -C "$publish_dir" init --initial-branch=gh-pages
