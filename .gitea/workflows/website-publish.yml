@@ -17,22 +17,11 @@ jobs:
       - name: Verify reviewed preview
         run: ./scripts/assert-preview-current.sh
 
-      - name: Verify Python
-        run: |
-          python3 -c 'import sys; assert sys.version_info[:2] == (3, 13), sys.version'
-          python3 --version
+      - name: Verify Hugo
+        run: hugo version
 
-      - name: Create build environment
-        run: python3 -m venv .venv
-
-      - name: Install pinned dependencies
-        run: .venv/bin/python -m pip install --requirement requirements.txt
-
-      - name: Build Nikola site
-        run: .venv/bin/nikola build
-
-      - name: Validate generated site
-        run: .venv/bin/nikola check -l -f
+      - name: Build Hugo site
+        run: hugo --minify --destination output
 
       - name: Prepare GitHub Pages output
         run: |

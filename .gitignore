@@ -1,7 +1,10 @@
 .DS_Store
+.hugo_build.lock
 .doit.db*
 *.py[cod]
 __pycache__/
 .venv/
 cache/
 output/
+public/
+resources/_gen/
