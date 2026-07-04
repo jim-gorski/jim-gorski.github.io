@@ -20,7 +20,16 @@ esac
   exit 1
 }
 
-install -d -m 0755 "$preview_root/releases"
+[ -d "$preview_root/releases" ] || {
+  printf 'ERROR: Preview releases directory is missing: %s/releases\n' "$preview_root" >&2
+  exit 1
+}
+
+[ -w "$preview_root/releases" ] || {
+  printf 'ERROR: Preview releases directory is not writable: %s/releases\n' "$preview_root" >&2
+  exit 1
+}
+
 rm -rf "$tmp_dir"
 install -d -m 0755 "$tmp_dir"
 
