@@ -21,8 +21,8 @@ jobs:
       - name: Verify Hugo
         run: hugo version
 
-      - name: Build Hugo site
-        run: hugo --minify --destination output
+      - name: Build Hugo preview
+        run: hugo --minify --baseURL https://www.jimgorski.net/ --destination output
 
       - name: Prepare GitHub Pages output
         run: |
