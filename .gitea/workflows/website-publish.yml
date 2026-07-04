@@ -18,10 +18,10 @@ jobs:
         run: ./scripts/assert-preview-current.sh
 
       - name: Verify Hugo
-        run: hugo version
+        run: /usr/bin/hugo version
 
       - name: Build Hugo site
-        run: hugo --minify --destination output
+        run: /usr/bin/hugo --minify --destination output
 
       - name: Prepare GitHub Pages output
         run: |
