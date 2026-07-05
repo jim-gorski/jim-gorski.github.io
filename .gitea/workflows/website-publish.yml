@@ -31,5 +31,5 @@ jobs:
 
       - name: Publish GitHub mirror and Pages
         env:
-          GITHUB_PUBLISH_CREDENTIAL: ${{ secrets.GITHUB_PUBLISH_CREDENTIAL }}
+          PUSH_TOKEN: ${{ secrets.GITHUB_PUBLISH_CREDENTIAL }}
         run: ./scripts/publish-github.sh
