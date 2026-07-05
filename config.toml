@@ -48,7 +48,7 @@ canonifyurls = true
   name = "Jim Gorski"
   bio = "Some things only happen to me"
   job = "System Engineer"
-  location = "Penfield, NY"
+  location = "Cumming, GA"
   # Your Gravatar email. Overwrite `author.picture` everywhere in the blog
   # gravatarEmail = "thibaud.lepretre@gmail.com"
   # Your profile picture
