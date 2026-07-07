@@ -100,9 +100,16 @@ canonifyurls = true
   url = "https://github.com/jim-gorski"
 
 [[menu.links]]
-  weight = 1
-  identifier = "Linkedin"
-  name = "Linkedin"
+  weight = 2
+  identifier = "twitter"
+  name = "X / Twitter"
+  pre = "<i class=\"sidebar-button-icon fab fa-lg fa-twitter\" aria-hidden=\"true\"></i>"
+  url = "https://x.com/jimgorski"
+
+[[menu.links]]
+  weight = 3
+  identifier = "linkedin"
+  name = "LinkedIn"
   pre = "<i class=\"sidebar-button-icon fab fa-lg fa-linkedin\" aria-hidden=\"true\"></i>"
   url = "https://www.linkedin.com/in/jpgorski/"
 
@@ -286,48 +293,6 @@ canonifyurls = true
     crossorigin = "anonymous"
     async = true
     defer = true
-
-  # ---------------
-  # Sharing options
-  # ---------------
-  # Comment and uncomment to enable or disable sharing options
-  # If you wanna add a sharing option, read user documentation :
-  # Tranquilpeak configuration > Theme configuration > sharing-options
-  [[params.sharingOptions]]
-    name = "Facebook"
-    icon = "fab fa-facebook-square"
-    url = "https://www.facebook.com/sharer/sharer.php?u=%s"
-
-  [[params.sharingOptions]]
-    name = "Twitter"
-    icon = "fab fa-twitter"
-    url = "https://twitter.com/intent/tweet?text=%s"
-
-
-#  [[params.sharingOptions]]
-#    name = "Whatsapp"
-#    icon = "fab fa-whatsapp"
-#    url = "https://wa.me/?text=%s"
-
-  [[params.sharingOptions]]
-    name = "Linkedin"
-    icon = "fab fa-linkedin"
-    url = "https://www.linkedin.com/sharing/share-offsite/?url=%s"
-
-#  [[params.sharingOptions]]
-#    name = "Reddit"
-#    icon = "fab fa-reddit"
-#    url = "https://www.reddit.com/submit?url=%s"
-#
-#  [[params.sharingOptions]]
-#    name = "Pocket"
-#    icon = "fab fa-get-pocket"
-#    url = "https://getpocket.com/edit?url=%s"
-#
-#  [[params.sharingOptions]]
-#    name = "Hacker News"
-#    icon = "fab fa-hacker-news"
-#    url = "https://news.ycombinator.com/submitlink?u=%s"
 
   # -------------------
   # Integrated services
